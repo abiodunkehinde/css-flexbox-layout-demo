@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flexbox Demo</title>
+  <style>
+    .container { display: flex; gap: 15px; padding: 20px; flex-wrap: wrap; }
+    .box { flex: 1 1 200px; background: #3498db; color: white; padding: 20px; text-align: center; border-radius: 8px; }
+    .main { flex: 2; background: #e74c3c; }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">Flexbox Layout</h1>
+  <div class="container">
+    <div class="box">Sidebar</div>
+    <div class="box main">Main Content</div>
+    <div class="box">Sidebar</div>
+  </div>
+</body>
+</html>
